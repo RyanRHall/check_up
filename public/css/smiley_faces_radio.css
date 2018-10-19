@@ -1,0 +1,37 @@
+#smiley-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#smiley-container img {
+  padding: 7px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+#smiley-container .selected {
+  border: 3px dotted black;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+#yes-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+#yes-container img {
+  padding: 7px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+#yes-container .selected {
+  border: 3px dotted black;
+  padding: 4px;
+  /* border-radius: 50%; */
+}
