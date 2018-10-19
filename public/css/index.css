@@ -8,6 +8,13 @@ body {
 .clear {
 	clear: both;
 }
+.header {
+	border-bottom: 1px solid #EEE;
+	padding: 8px;
+}
+.header .logo {
+	width: 10em;
+}
 /* form elements */
 form.form {
 	position: relative;
@@ -59,6 +66,9 @@ form.form .carousel-control-prev, .carousel-control-next {
 	font-size: 2em;
 	width: 100%;
 	padding-top: 45%;
+}
+.thanks .plus-money {
+	margin-top: .6em;
 }
 .btn.btn-danger {
 	background-color: #f95f62;
