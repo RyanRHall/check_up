@@ -1,0 +1,20 @@
+{
+  "name": "check_up",
+  "version": "1.0.0",
+  "description": "This is a demo page for product studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanRHall/check_up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanRHall/check_up/issues"
+  },
+  "homepage": "https://github.com/RyanRHall/check_up#readme"
+}

@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script src="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.1.min.js"></script>
+		<link href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.1.css" type="text/css" rel="stylesheet" />
+		<link href="./layer.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div id="container" lj-type="stage">
+		  <div lj-type="layer">
+		    <div id="f1" lj-type="frame">
+		      Question 1
+					<a href="#f2">next</a>
+		    </div>
+		    <div id="f2" lj-type="frame">
+		      Question 2
+					<a href="#f1&p=right">prev</a>
+					<a href="#f3">next</a>
+		    </div>
+		    <div id="f3" lj-type="frame">
+		      Question 3
+					<a href="#f2&p=right">prev</a>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>
