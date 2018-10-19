@@ -18,17 +18,16 @@
 						<!--text input-->
 						<div class="carousel-item active">
 							<div class="form-group">
-								<label class='input-label' for="exampleInputEmail1">How many hours did you sleep last night?</label>
-								<div class="input-group mb-3">
-									<input type="text" class="form-control" aria-label="sleep hours">
-									<div class="input-group-append">
-										<span class="input-group-text">hours</span>
+								<div class="form-group-inner">
+									<label class='input-label' for="exampleInputEmail1">How many hours did you sleep last night?</label>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control" aria-label="sleep hours">
+										<div class="input-group-append">
+											<span class="input-group-text">hours</span>
+										</div>
 									</div>
-								</div>								
+								</div>
 								<div class="text-center bottom-buttons">
-									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-										<button class="btn btn-secondary">Prev</button>
-									</a>
 									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 										<button class="btn btn-danger">Next</button>
 									</a>
@@ -39,8 +38,10 @@
 						<!-- slider -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label class='input-label' for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="custom-range" id="formControlRange">
+								<div class="form-group-inner">
+									<label class='input-label' for="formControlRange">How do you feel in the last month?</label>
+									<input type="range" class="custom-range" id="formControlRange">
+								</div>
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<button class="btn btn-secondary">Prev</button>
@@ -55,31 +56,33 @@
 						<!-- Checkboxes -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label class='input-label' for="formControlRange">Which medicine did you take?</label>
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-									<label class="form-check-label" for="defaultCheck1">
-										Medicine 1
-									</label>
-								</div>								
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-									<label class="form-check-label" for="defaultCheck1">
-										Medicine 2
-									</label>
-								</div>								
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-									<label class="form-check-label" for="defaultCheck1">
-										Medicine 3
-									</label>
-								</div>								
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-									<label class="form-check-label" for="defaultCheck1">
-										Medicine 3
-									</label>
-								</div>								
+								<div class="form-group-inner">
+									<label class='input-label' for="formControlRange">Which medicine did you take?</label>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">
+											Medicine 1
+										</label>
+									</div>								
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">
+											Medicine 2
+										</label>
+									</div>								
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">
+											Medicine 3
+										</label>
+									</div>								
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">
+											Medicine 3
+										</label>
+									</div>								
+								</div>
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<button class="btn btn-secondary">Prev</button>
@@ -94,23 +97,25 @@
 						<!-- Radio buttons -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label class='input-label' for="formControlRange">How many hours did spend everyday?</label>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-									<label class="custom-control-label" for="customRadio1">0</label>
+								<div class="form-group-inner">
+									<label class='input-label' for="formControlRange">How many hours did spend everyday?</label>
+									<div class="custom-control custom-radio">
+										<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+										<label class="custom-control-label" for="customRadio1">0</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+										<label class="custom-control-label" for="customRadio2">1 hour</label>
+									</div>								
+									<div class="custom-control custom-radio">
+										<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+										<label class="custom-control-label" for="customRadio2">2 hours</label>
+									</div>								
+									<div class="custom-control custom-radio">
+										<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+										<label class="custom-control-label" for="customRadio2">More than 2 hours</label>
+									</div>								
 								</div>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-									<label class="custom-control-label" for="customRadio2">1 hour</label>
-								</div>								
-								<div class="custom-control custom-radio">
-									<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-									<label class="custom-control-label" for="customRadio2">2 hours</label>
-								</div>								
-								<div class="custom-control custom-radio">
-									<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-									<label class="custom-control-label" for="customRadio2">More than 2 hours</label>
-								</div>								
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<button class="btn btn-secondary">Prev</button>
@@ -125,13 +130,15 @@
 						<!-- Dropdown -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label class='input-label' for="formControlRange">Which food did you take mostly?</label>
-								<select class="custom-select">
-									<option selected>Choose one food</option>
-									<option value="1">Rice</option>
-									<option value="2">Burger</option>
-									<option value="3">Vegetables</option>
-								</select>
+								<div class="form-group-inner">
+									<label class='input-label' for="formControlRange">Which food did you take mostly?</label>
+									<select class="custom-select">
+										<option selected>Choose one food</option>
+										<option value="1">Rice</option>
+										<option value="2">Burger</option>
+										<option value="3">Vegetables</option>
+									</select>
+								</div>
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<button class="btn btn-secondary">Prev</button>
@@ -146,10 +153,12 @@
 						<!-- File uploader -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label class='input-label' for="formControlRange">Please take a photo</label>
-								<div class="custom-file">
-									<input type="file" class="custom-file-input" id="customFile">
-									<label class="custom-file-label" for="customFile">Choose file</label>
+								<div class="form-group-inner">
+									<label class='input-label' for="formControlRange">Please take a photo</label>
+									<div class="custom-file">
+										<input type="file" class="custom-file-input" id="customFile">
+										<label class="custom-file-label" for="customFile">Choose file</label>
+									</div>
 								</div>
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -166,9 +175,11 @@
 						<!-- Textarea and submit -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label class='input-label' for="exampleInputEmail1">Overall what's your body status in the last month?</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-								<small id="emailHelp" class="form-text text-muted">Please be as specific as possible.</small>
+								<div class="form-group-inner">
+									<label class='input-label' for="exampleInputEmail1">Overall what's your body status in the last month?</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+									<small id="emailHelp" class="form-text text-muted">Please be as specific as possible.</small>
+								</div>
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<button class="btn btn-secondary">Prev</button>
@@ -183,8 +194,10 @@
 						</div>
 						<div class="carousel-item">
 							<div class="form-group">
-								<div class="text-center text-success thanks">
-									Thanks for participating!
+								<div class="form-group-inner">
+									<div class="text-center text-success thanks">
+										Thanks for participating!
+									</div>
 								</div>
 								<div class="text-center bottom-buttons">
 									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">

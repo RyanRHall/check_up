@@ -13,8 +13,6 @@ form.form {
 	position: relative;
 }
 form.form .carousel-item {
-	padding: 0 20px;
-	height: 80vh;
 }
 form.form span.sr-only {
 	width: auto;
@@ -35,15 +33,19 @@ form.form label.input-label {
 form.form .input-group {
 	/* margin: 1em auto; */
 }
+form.form .form-group-inner {
+	padding: 0 20px;
+	height: 80vh;
+}
 form.form input[type=text] {
 	height: 3.5em;
 }
 form .bottom-buttons {
-	position: fixed;
-	bottom: 1em;
+	/* position: fixed; */
+	/* bottom: 1em; */
 	width: 100%;
-	z-index: 10;
-	left: 0;
+	/* z-index: 10; */
+	/* left: 0; */
 }
 form.form .carousel-control-prev, .carousel-control-next {
 	position: relative;
@@ -54,10 +56,8 @@ form.form .carousel-control-prev, .carousel-control-next {
 }
 .thanks {
 	font-size: 2em;
-	position: absolute;
-	top: 30%;
-	left: 0;
 	width: 100%;
+	padding-top: 45%;
 }
 .btn.btn-danger {
 	background-color: #f95f62;
