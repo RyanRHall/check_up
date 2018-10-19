@@ -1,7 +1,14 @@
+/* Common components */
+body {
+	font-family: Helvetica;
+}
 .main-content {
 	padding-top: 10%;
 }
-@media {width }
+.clear {
+	clear: both;
+}
+/* form elements */
 form.form {
 	position: relative;
 }
@@ -9,23 +16,39 @@ form.form .carousel-item {
 	padding: 0 20px;
 	height: 90vh;
 }
-form.form .carousel-control-prev, .carousel-control-next {
-	position: relative;
-	width: 3em;
-	margin: 2em auto 0 1em;
-	display: inline-block;
-}
 form.form span.sr-only {
 	width: auto;
 	height: auto;
 	position: relative;
 	color: #333;
 }
-.clear {
-	clear: both;
-}
 form.form button.submit-btn {
 }
 form.form textarea {
 	height: 250px;
+}
+form.form label.input-label {
+	font-size: 2.5em;
+	color: #555;
+	margin-bottom: 1em;
+}
+form.form .input-group {
+	/* margin: 1em auto; */
+}
+form.form input[type=text] {
+	height: 3.5em;
+}
+form .bottom-buttons {
+	position: fixed;
+	bottom: 1em;
+	width: 100%;
+	z-index: 10;
+	left: 0;
+}
+form.form .carousel-control-prev, .carousel-control-next {
+	position: relative;
+	width: auto;
+	margin: 2em 1em 0 1em;
+	opacity: 0.9;
+	display: inline-block;
 }
