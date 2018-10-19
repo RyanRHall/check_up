@@ -49,7 +49,7 @@ form.form .carousel-control-prev, .carousel-control-next {
 	position: relative;
 	width: auto;
 	margin: 2em 1em 0 1em;
-	opacity: 0.9;
+	opacity: 0.95;
 	display: inline-block;
 }
 .thanks {
@@ -58,4 +58,16 @@ form.form .carousel-control-prev, .carousel-control-next {
 	top: 30%;
 	left: 0;
 	width: 100%;
+}
+.btn.btn-danger {
+	background-color: #f95f62;
+	border-color: #f95f62;
+}
+.btn.btn-secondary {
+	background-color: #5a6978;
+	border-color: #5a6978;
+}
+.btn.btn-success {
+	background-color: #1ecd97;
+	border-color: #1ecd97;
 }
