@@ -10,7 +10,7 @@
 
 	<body>
 		<div class="container main-content">
-			<form class='form' action="javascript: alert('Thanks for submitting. You are done!'); ">
+			<form class='form' action="javascript: return false; ">
 				<!-- Use a Carousel to make sliding effect -->
 				<div id="carouselExampleIndicators" class="carousel slide" data-wrap='false'>
 					<div class="carousel-inner">
@@ -163,8 +163,23 @@
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<span class="sr-only">Prev</span>
 									</a>
-									<button type="submit" class="btn btn-primary submit-btn">Submit</button>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<!-- <span class="sr-only">Next</span> -->
+										<button type="button" class="btn btn-primary submit-btn">Submit</button>
+									</a>
 									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="form-group">
+								<div class="alert alert-success" role="alert">
+									<div>
+										Thanks for submitting!
+									</div>
+									<div>
+										You are done!
+									</div>
 								</div>
 							</div>
 						</div>
