@@ -52,3 +52,10 @@ form.form .carousel-control-prev, .carousel-control-next {
 	opacity: 0.9;
 	display: inline-block;
 }
+.thanks {
+	font-size: 2em;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+}
