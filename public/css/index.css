@@ -3,7 +3,7 @@ body {
 	font-family: Helvetica;
 }
 .main-content {
-	padding-top: 10%;
+	padding: 10% 6%;
 }
 .clear {
 	clear: both;
@@ -34,8 +34,8 @@ form.form .input-group {
 	/* margin: 1em auto; */
 }
 form.form .form-group-inner {
-	padding: 0 20px;
-	height: 80vh;
+	/* padding: 0 20px; */
+	height: 75vh;
 }
 form.form input[type=text] {
 	height: 3.5em;
