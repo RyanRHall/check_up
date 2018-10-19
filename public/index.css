@@ -1,7 +1,7 @@
 .main-content {
 	padding-top: 10%;
-	width: 70%;
 }
+@media {width }
 form.form {
 	position: relative;
 }
@@ -11,8 +11,8 @@ form.form .carousel-item {
 }
 form.form .carousel-control-prev, .carousel-control-next {
 	position: relative;
-	width: 120px;
-	margin: 2em auto 0 2em;
+	width: 3em;
+	margin: 2em auto 0 1em;
 	display: inline-block;
 }
 form.form span.sr-only {

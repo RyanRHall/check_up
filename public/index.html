@@ -5,6 +5,7 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
 	<body>
@@ -38,7 +39,7 @@
 						<div class="carousel-item">
 							<div class="form-group">
 								<label for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="form-control-range" id="formControlRange">
+								<input type="range" class="custom-range" id="formControlRange">
 								<div class="text-center">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<span class="sr-only">Prev</span>
@@ -53,8 +54,31 @@
 						<!-- Checkboxes -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="form-control-range" id="formControlRange">
+								<label for="formControlRange">Which medicine did you take?</label>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Medicine 1
+									</label>
+								</div>								
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Medicine 2
+									</label>
+								</div>								
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Medicine 3
+									</label>
+								</div>								
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Medicine 3
+									</label>
+								</div>								
 								<div class="text-center">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<span class="sr-only">Prev</span>
@@ -69,8 +93,35 @@
 						<!-- Radio buttons -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="form-control-range" id="formControlRange">
+								<label for="formControlRange">Which.....</label>
+								<div class="custom-control custom-radio">
+									<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+								</div>								<div class="text-center">
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="sr-only">Prev</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="sr-only">Next</span>
+									</a>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+						<!-- Dropdown -->
+						<div class="carousel-item">
+							<div class="form-group">
+								<label for="formControlRange">Which food did you take mostly?</label>
+								<select class="custom-select">
+									<option selected>Choose one food</option>
+									<option value="1">Rice</option>
+									<option value="2">Burger</option>
+									<option value="3">Vegetables</option>
+								</select>
 								<div class="text-center">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<span class="sr-only">Prev</span>
@@ -82,41 +133,14 @@
 								</div>
 							</div>
 						</div>
-						<!-- Radio buttons -->
+						<!-- File uploader -->
 						<div class="carousel-item">
 							<div class="form-group">
-								<label for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="form-control-range" id="formControlRange">
-								<div class="text-center">
-									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-										<span class="sr-only">Prev</span>
-									</a>
-									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-										<span class="sr-only">Next</span>
-									</a>
-									<div class="clear"></div>
+								<label for="formControlRange">Please take a photo</label>
+								<div class="custom-file">
+									<input type="file" class="custom-file-input" id="customFile">
+									<label class="custom-file-label" for="customFile">Choose file</label>
 								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="form-group">
-								<label for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="form-control-range" id="formControlRange">
-								<div class="text-center">
-									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-										<span class="sr-only">Prev</span>
-									</a>
-									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-										<span class="sr-only">Next</span>
-									</a>
-									<div class="clear"></div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="form-group">
-								<label for="formControlRange">How do you feel in the last month?</label>
-								<input type="range" class="form-control-range" id="formControlRange">
 								<div class="text-center">
 									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 										<span class="sr-only">Prev</span>
@@ -129,6 +153,7 @@
 							</div>
 						</div>
 
+						<!-- Textarea and submit -->
 						<div class="carousel-item">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Overall what's your body status in the last month?</label>
